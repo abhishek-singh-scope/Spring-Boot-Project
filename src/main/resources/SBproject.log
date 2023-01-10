@@ -1,0 +1,11 @@
+[2023-01-03 14:49:51,736] http-nio-8010-exec-2 com.scope.project.controller.OrdersArrayDB_REST 45 INFO  - Added Order
+OrderADT(oid=0, customer=Rahul, placedAt=14:49:51, placedOn=2023-01-03, Shipping_address=Hotel Taj Mahal Palace, Navi Mumbai, Billing_address=Balewadi High Street, Baner, Pune, payment_method=EMI, grand_total=0.0, orderline=[])
+[2023-01-03 14:50:17,967] http-nio-8010-exec-3 com.scope.project.exception.globalHandler.GlobalExceptionHandler 27 INFO  - {item=Item name must be mentioned, quantity=quantity must be atleast 1, price=price value must be atleast 99}
+[2023-01-03 14:50:56,023] http-nio-8010-exec-4 com.scope.project.controller.OrdersArrayDB_REST 61 INFO  - Added OrdeLine
+OrderLine(item_id=0, item=JBL wireless headphones, quantity=1, price=1200.0, total=1200.0, orderid=null)
+[2023-01-03 14:51:17,413] http-nio-8010-exec-7 com.scope.project.exception.globalHandler.GlobalExceptionHandler 47 INFO  - {errorMessage=Could not write JSON: Infinite recursion (StackOverflowError)}
+[2023-01-03 14:52:37,244] http-nio-8010-exec-9 com.scope.project.exception.globalHandler.GlobalExceptionHandler 47 INFO  - {errorMessage=Could not write JSON: Infinite recursion (StackOverflowError)}
+[2023-01-03 15:07:10,986] http-nio-8010-exec-4 com.scope.project.controller.OrdersArrayDB_REST 52 INFO  - Updated Order
+OrderADT(oid=2, customer=Sanchit, placedAt=16:53:01, placedOn=2023-01-02, Shipping_address=Sion Pada Near Railway Station, Navi Mumbai, Billing_address=Seed Infotech, Chinchwad, Pune, payment_method=Credit_Card, grand_total=4700.0, orderline=[])
+[2023-01-03 15:07:11,058] http-nio-8010-exec-4 com.scope.project.controller.OrdersArrayDB_REST 54 INFO  - Updated OrderLine
+OrderLine(item_id=3, item=JBL wireless headphones, quantity=1, price=1200.0, total=1200.0, orderid=OrderADT(oid=2, customer=Sanchit, placedAt=16:53:01, placedOn=2023-01-02, Shipping_address=Sion Pada Near Railway Station, Navi Mumbai, Billing_address=Seed Infotech, Chinchwad, Pune, payment_method=Credit_Card, grand_total=4700.0, orderline=[]))
